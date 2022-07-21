@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sans.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Tutorial Sans2 Idle Instance10000" x="3562" y="1072" width="493" height="520" frameX="-26" frameY="-1" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10001" x="3562" y="1072" width="493" height="520" frameX="-26" frameY="-1" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10002" x="3562" y="1072" width="493" height="520" frameX="-26" frameY="-1" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10003" x="4065" y="1072" width="501" height="508" frameX="-25" frameY="-13" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10004" x="4065" y="1072" width="501" height="508" frameX="-25" frameY="-13" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10005" x="4576" y="1072" width="492" height="518" frameX="-28" frameY="-3" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10006" x="4576" y="1072" width="492" height="518" frameX="-28" frameY="-3" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10007" x="5078" y="1072" width="493" height="520" frameX="-26" frameY="-1" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10008" x="5078" y="1072" width="493" height="520" frameX="-26" frameY="-1" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10009" x="5581" y="1072" width="493" height="520" frameX="-22" frameY="-1" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10010" x="5581" y="1072" width="493" height="520" frameX="-22" frameY="-1" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10011" x="6084" y="1072" width="493" height="521" frameX="-18" frameY="0" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10012" x="6084" y="1072" width="493" height="521" frameX="-18" frameY="0" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10013" x="6587" y="1072" width="493" height="519" frameX="-16" frameY="-2" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10014" x="6587" y="1072" width="493" height="519" frameX="-16" frameY="-2" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10015" x="7090" y="1072" width="493" height="519" frameX="-13" frameY="-2" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10016" x="7090" y="1072" width="493" height="519" frameX="-13" frameY="-2" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10017" x="7593" y="1072" width="505" height="509" frameX="0" frameY="-12" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10018" x="7593" y="1072" width="505" height="509" frameX="0" frameY="-12" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10019" x="10" y="1603" width="490" height="517" frameX="-11" frameY="-4" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10020" x="10" y="1603" width="490" height="517" frameX="-11" frameY="-4" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10021" x="510" y="1603" width="493" height="519" frameX="-13" frameY="-2" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10022" x="510" y="1603" width="493" height="519" frameX="-13" frameY="-2" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10023" x="510" y="1603" width="493" height="519" frameX="-13" frameY="-2" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10024" x="6587" y="1072" width="493" height="519" frameX="-16" frameY="-2" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10025" x="6587" y="1072" width="493" height="519" frameX="-16" frameY="-2" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10026" x="6587" y="1072" width="493" height="519" frameX="-16" frameY="-2" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10027" x="6084" y="1072" width="493" height="521" frameX="-18" frameY="0" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10028" x="6084" y="1072" width="493" height="521" frameX="-18" frameY="0" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10029" x="1013" y="1603" width="493" height="520" frameX="-22" frameY="-1" frameWidth="526" frameHeight="521"/>
+	<SubTexture name="Tutorial Sans2 Idle Instance10030" x="1013" y="1603" width="493" height="520" frameX="-22" frameY="-1" frameWidth="526" frameHeight="521"/>
+</TextureAtlas>

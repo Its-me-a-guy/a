@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Papyrus.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Bruh instance 10000" x="10" y="10" width="328" height="489"/>
+	<SubTexture name="Even more Mad instance 10000" x="348" y="10" width="400" height="459" frameX="-1" frameY="-42" frameWidth="443" frameHeight="502"/>
+	<SubTexture name="Even more Mad instance 10001" x="758" y="10" width="372" height="486" frameX="-22" frameY="-16" frameWidth="443" frameHeight="502"/>
+	<SubTexture name="Even more Mad instance 10002" x="1140" y="10" width="410" height="488" frameX="0" frameY="-11" frameWidth="443" frameHeight="502"/>
+	<SubTexture name="Even more Mad instance 10003" x="1560" y="10" width="443" height="499" frameX="0" frameY="0" frameWidth="443" frameHeight="502"/>
+	<SubTexture name="Even more Mad instance 10004" x="1560" y="10" width="443" height="499" frameX="0" frameY="0" frameWidth="443" frameHeight="502"/>
+	<SubTexture name="Even more Mad instance 10005" x="2013" y="10" width="442" height="498" frameX="0" frameY="-1" frameWidth="443" frameHeight="502"/>
+	<SubTexture name="Even more Mad instance 10006" x="2013" y="10" width="442" height="498" frameX="0" frameY="-1" frameWidth="443" frameHeight="502"/>
+	<SubTexture name="Even more Mad instance 10007" x="2465" y="10" width="440" height="496" frameX="-1" frameY="-3" frameWidth="443" frameHeight="502"/>
+	<SubTexture name="Even more Mad instance 10008" x="2465" y="10" width="440" height="496" frameX="-1" frameY="-3" frameWidth="443" frameHeight="502"/>
+	<SubTexture name="Even more Mad instance 10009" x="2915" y="10" width="438" height="493" frameX="-1" frameY="-6" frameWidth="443" frameHeight="502"/>
+	<SubTexture name="Even more Mad instance 10010" x="3363" y="10" width="435" height="490" frameX="-1" frameY="-9" frameWidth="443" frameHeight="502"/>
+	<SubTexture name="ISTG instance 10000" x="3808" y="10" width="413" height="584" frameX="-10" frameY="0" frameWidth="439" frameHeight="584"/>
+	<SubTexture name="ISTG instance 10001" x="4231" y="10" width="439" height="544" frameX="0" frameY="-38" frameWidth="439" frameHeight="584"/>
+	<SubTexture name="ISTG instance 10002" x="4231" y="10" width="439" height="544" frameX="0" frameY="-38" frameWidth="439" frameHeight="584"/>
+	<SubTexture name="ISTG instance 10003" x="4680" y="10" width="418" height="555" frameX="-13" frameY="-28" frameWidth="439" frameHeight="584"/>
+	<SubTexture name="ISTG instance 10004" x="4680" y="10" width="418" height="555" frameX="-13" frameY="-28" frameWidth="439" frameHeight="584"/>
+	<SubTexture name="ISTG instance 10005" x="4680" y="10" width="418" height="555" frameX="-13" frameY="-28" frameWidth="439" frameHeight="584"/>
+	<SubTexture name="ISTG instance 10006" x="4680" y="10" width="418" height="555" frameX="-13" frameY="-28" frameWidth="439" frameHeight="584"/>
+	<SubTexture name="ISTG instance 10007" x="4680" y="10" width="418" height="555" frameX="-13" frameY="-28" frameWidth="439" frameHeight="584"/>
+	<SubTexture name="ISTG instance 10008" x="4680" y="10" width="418" height="555" frameX="-13" frameY="-28" frameWidth="439" frameHeight="584"/>
+	<SubTexture name="ISTG instance 10009" x="4680" y="10" width="418" height="555" frameX="-13" frameY="-28" frameWidth="439" frameHeight="584"/>
+	<SubTexture name="Idle instance 10000" x="5108" y="10" width="322" height="506" frameX="-8" frameY="-7" frameWidth="330" frameHeight="513"/>
+	<SubTexture name="Idle instance 10001" x="5108" y="10" width="322" height="506" frameX="-8" frameY="-7" frameWidth="330" frameHeight="513"/>
+	<SubTexture name="Idle instance 10002" x="5440" y="10" width="322" height="510" frameX="-5" frameY="-3" frameWidth="330" frameHeight="513"/>
+	<SubTexture name="Idle instance 10003" x="5440" y="10" width="322" height="510" frameX="-5" frameY="-3" frameWidth="330" frameHeight="513"/>
+	<SubTexture name="Idle instance 10004" x="5772" y="10" width="323" height="511" frameX="-4" frameY="-2" frameWidth="330" frameHeight="513"/>
+	<SubTexture name="Idle instance 10005" x="5772" y="10" width="323" height="511" frameX="-4" frameY="-2" frameWidth="330" frameHeight="513"/>
+	<SubTexture name="Idle instance 10006" x="6105" y="10" width="325" height="512" frameX="-2" frameY="-1" frameWidth="330" frameHeight="513"/>
+	<SubTexture name="Idle instance 10007" x="6105" y="10" width="325" height="512" frameX="-2" frameY="-1" frameWidth="330" frameHeight="513"/>
+	<SubTexture name="Idle instance 10008" x="6440" y="10" width="326" height="512" frameX="-1" frameY="-1" frameWidth="330" frameHeight="513"/>
+	<SubTexture name="Idle instance 10009" x="6440" y="10" width="326" height="512" frameX="-1" frameY="-1" frameWidth="330" frameHeight="513"/>
+	<SubTexture name="Idle instance 10010" x="6776" y="10" width="327" height="513" frameX="0" frameY="0" frameWidth="330" frameHeight="513"/>
+	<SubTexture name="Idle instance 10011" x="6776" y="10" width="327" height="513" frameX="0" frameY="0" frameWidth="330" frameHeight="513"/>
+	<SubTexture name="Idle instance 10012" x="7113" y="10" width="327" height="513" frameX="0" frameY="0" frameWidth="330" frameHeight="513"/>
+	<SubTexture name="Idle instance 10013" x="7113" y="10" width="327" height="513" frameX="0" frameY="0" frameWidth="330" frameHeight="513"/>
+</TextureAtlas>

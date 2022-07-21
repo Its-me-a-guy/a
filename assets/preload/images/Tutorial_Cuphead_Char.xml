@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Cuphead Remastered.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Tutorial Cuphead Idle Instance10000" x="3685" y="10" width="233" height="249" frameX="0" frameY="-17" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10001" x="3685" y="10" width="233" height="249" frameX="0" frameY="-17" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10002" x="10" y="291" width="226" height="258" frameX="-4" frameY="-9" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10003" x="10" y="291" width="226" height="258" frameX="-4" frameY="-9" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10004" x="246" y="291" width="227" height="260" frameX="-4" frameY="-7" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10005" x="246" y="291" width="227" height="260" frameX="-4" frameY="-7" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10006" x="483" y="291" width="228" height="262" frameX="-5" frameY="-5" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10007" x="483" y="291" width="228" height="262" frameX="-5" frameY="-5" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10008" x="721" y="291" width="229" height="264" frameX="-5" frameY="-3" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10009" x="721" y="291" width="229" height="264" frameX="-5" frameY="-3" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10010" x="960" y="291" width="230" height="266" frameX="-5" frameY="-1" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10011" x="960" y="291" width="230" height="266" frameX="-5" frameY="-1" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10012" x="960" y="291" width="230" height="266" frameX="-5" frameY="-1" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10013" x="1200" y="291" width="230" height="267" frameX="-5" frameY="0" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10014" x="1200" y="291" width="230" height="267" frameX="-5" frameY="0" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10015" x="1200" y="291" width="230" height="267" frameX="-5" frameY="0" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10016" x="1440" y="291" width="230" height="267" frameX="-5" frameY="0" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10017" x="1440" y="291" width="230" height="267" frameX="-5" frameY="0" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10018" x="1440" y="291" width="230" height="267" frameX="-5" frameY="0" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10019" x="1440" y="291" width="230" height="267" frameX="-5" frameY="0" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10020" x="1440" y="291" width="230" height="267" frameX="-5" frameY="0" frameWidth="235" frameHeight="267"/>
+	<SubTexture name="Tutorial Cuphead Idle Instance10021" x="1440" y="291" width="230" height="267" frameX="-5" frameY="0" frameWidth="235" frameHeight="267"/>
+</TextureAtlas>
