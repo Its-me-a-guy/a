@@ -101,17 +101,6 @@
 		},
 		{
 			"offsets": [
-				-3,
-				5
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "hey",
-			"indices": [],
-			"name": "BF HEY"
-		},
-		{
-			"offsets": [
 				14,
 				18
 			],
@@ -120,17 +109,6 @@
 			"anim": "hurt",
 			"indices": [],
 			"name": "BF hit"
-		},
-		{
-			"offsets": [
-				-4,
-				0
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "scared",
-			"indices": [],
-			"name": "BF idle shaking"
 		},
 		{
 			"offsets": [
@@ -153,26 +131,15 @@
 			"anim": "attack",
 			"indices": [],
 			"name": "boyfriend attack"
-		},
-		{
-			"offsets": [
-				-40,
-				-40
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "pre-attack",
-			"indices": [],
-			"name": "bf pre attack"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND",
+	"image": "characters/Bf",
 	"position": [
 		0,
 		350
 	],
-	"healthicon": "bf",
+	"healthicon": "bf_final",
 	"flip_x": true,
 	"healthbar_colors": [
 		49,
@@ -180,8 +147,8 @@
 		209
 	],
 	"camera_position": [
-		0,
-		0
+		100,
+		-160
 	],
 	"sing_duration": 4,
 	"scale": 1

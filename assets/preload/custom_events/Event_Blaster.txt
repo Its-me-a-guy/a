@@ -1,0 +1,4 @@
+Adds the blaster
+
+Value 1 should be set to :
+"Do" 	- To make boom

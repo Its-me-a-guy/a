@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				320
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up instance ",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-220,
+				-330
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down instance "
+		},
+		{
+			"offsets": [
+				-90,
+				70
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right instance "
+		},
+		{
+			"offsets": [
+				430,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left instance "
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "DeathBendy instance "
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Final_Bendy",
+	"position": [
+		-650,
+		-300
+	],
+	"healthicon": "final",
+	"flip_x": false,
+	"healthbar_colors": [
+		60,
+		42,
+		0
+	],
+	"camera_position": [
+		-10,
+		-280
+	],
+	"sing_duration": 6.1,
+	"scale": 2.2
+}

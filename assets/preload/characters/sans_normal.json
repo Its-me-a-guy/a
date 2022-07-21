@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-2
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Sans FNF 02 instance ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Left 02 instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-20
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down 02 instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				30
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up 02 instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-10
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right 02 instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				22
+			],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "SansDodge instance ",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Sans_Normal",
+	"position": [
+		-40,
+		180
+	],
+	"healthicon": "sans",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		160,
+		-170
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}

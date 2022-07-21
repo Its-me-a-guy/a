@@ -1,0 +1,11 @@
+Changes the characters
+
+Value 1 should be set to :
+First three letters of the current Stage + Number
+ex : "Cup2" for 2nd Cuphead Chars
+       "San3" for 3rd Sans Chars
+
+Special Cases
+       "San1.5" for the Angry sans
+       "Final" for Nm Cuphead (He's the first char)
+

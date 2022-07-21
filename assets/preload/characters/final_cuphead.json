@@ -1,0 +1,144 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				263,
+				-154
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Left instance ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				-74
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right instance ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				178,
+				158
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up instance ",
+			"indices": []
+		},
+		{
+			"offsets": [
+				177,
+				-193
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "ShootLeft"
+		},
+		{
+			"offsets": [
+				36,
+				-90
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "ShootRight"
+		},
+		{
+			"offsets": [
+				160,
+				-31
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "ShootUp"
+		},
+		{
+			"offsets": [
+				73,
+				-117
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "ShootDown"
+		},
+		{
+			"offsets": [
+				40,
+				-120
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down  instance "
+		},
+		{
+			"offsets": [
+				114,
+				-165
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodge",
+			"indices": [],
+			"name": "Dodgez instance"
+		},
+		{
+			"offsets": [
+				9,
+				30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "attack",
+			"indices": [],
+			"name": "Hadoken or Roundabout instance"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle instance ",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Final_Cuphead",
+	"position": [
+		-260,
+		-50
+	],
+	"healthicon": "final",
+	"flip_x": false,
+	"healthbar_colors": [
+		59,
+		0,
+		18
+	],
+	"camera_position": [
+		80,
+		90
+	],
+	"sing_duration": 6.1,
+	"scale": 1.9
+}
