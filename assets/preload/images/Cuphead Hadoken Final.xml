@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NMcupheadAttacks.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DeathBlast instance 10000" x="10" y="10" width="996" height="437" frameX="0" frameY="-45" frameWidth="1009" frameHeight="541"/>
+	<SubTexture name="DeathBlast instance 10001" x="1016" y="10" width="819" height="474" frameX="-273" frameY="-18" frameWidth="1009" frameHeight="541"/>
+	<SubTexture name="DeathBlast instance 10002" x="1845" y="10" width="906" height="536" frameX="-297" frameY="-5" frameWidth="1009" frameHeight="541"/>
+	<SubTexture name="DeathBlast instance 10003" x="2761" y="10" width="929" height="505" frameX="-380" frameY="0" frameWidth="1009" frameHeight="541"/>
+	<SubTexture name="DeathBlast instance 10004" x="10" y="556" width="850" height="456" frameX="-544" frameY="-26" frameWidth="1009" frameHeight="541"/>
+	<SubTexture name="DeathBlast instance 10005" x="870" y="556" width="860" height="474" frameX="-632" frameY="-18" frameWidth="1009" frameHeight="541"/>
+	<SubTexture name="DeathBlast instance 10006" x="1740" y="556" width="854" height="505" frameX="-749" frameY="-5" frameWidth="1009" frameHeight="541"/>
+	<SubTexture name="DeathBlast instance 10007" x="2604" y="556" width="930" height="490" frameX="-771" frameY="-16" frameWidth="1009" frameHeight="541"/>
+	<SubTexture name="DeathBlast instance 10008" x="10" y="10" width="996" height="437" frameX="-800" frameY="-45" frameWidth="1009" frameHeight="541"/>
+	<SubTexture name="DeathBlast instance 10009" x="1016" y="10" width="819" height="474" frameX="-1073" frameY="-18" frameWidth="1009" frameHeight="541"/>
+	<SubTexture name="DeathBlast instance 10010" x="1845" y="10" width="906" height="536" frameX="-1097" frameY="-5" frameWidth="1009" frameHeight="541"/>
+</TextureAtlas>

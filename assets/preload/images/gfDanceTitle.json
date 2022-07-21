@@ -1,0 +1,10 @@
+{	
+	"titlex":150,
+	"titley":0,
+	"startx":100,
+	"starty":776,
+	"gfx":812,
+	"gfy":240,
+	"backgroundSprite":"CrossedOut_Title_Bg",
+	"bpm":117
+}

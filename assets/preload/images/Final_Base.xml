@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gay.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ground Bop instance 1000" x="0" y="0" width="819" height="320"/>
+	<SubTexture name="Ground Bop instance 1001" x="0" y="320" width="819" height="320"/>
+	<SubTexture name="Ground Bop instance 1002" x="0" y="640" width="819" height="320"/>
+	<SubTexture name="Ground Bop instance 1003" x="0" y="960" width="819" height="320"/>
+	<SubTexture name="Ground Bop instance 1004" x="0" y="1280" width="819" height="320"/>
+	<SubTexture name="Ground Bop instance 1005" x="0" y="1600" width="819" height="320"/>
+	<SubTexture name="Ground Bop instance 1006" x="0" y="1920" width="819" height="320"/>
+</TextureAtlas>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NMB.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ink distract run instance 10000" x="0" y="0" width="762" height="729" frameX="00" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10001" x="0" y="0" width="762" height="729" frameX="20" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10002" x="0" y="0" width="762" height="729" frameX="40" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10003" x="0" y="0" width="762" height="729" frameX="60" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10004" x="0" y="0" width="762" height="729" frameX="80" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10010" x="0" y="0" width="762" height="729" frameX="100" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10011" x="0" y="0" width="762" height="729" frameX="120" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10012" x="0" y="0" width="762" height="729" frameX="140" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10013" x="0" y="0" width="762" height="729" frameX="160" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10014" x="0" y="0" width="762" height="729" frameX="180" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10020" x="0" y="0" width="762" height="729" frameX="200" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10021" x="0" y="0" width="762" height="729" frameX="220" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10022" x="0" y="0" width="762" height="729" frameX="240" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10023" x="0" y="0" width="762" height="729" frameX="260" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10024" x="0" y="0" width="762" height="729" frameX="280" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10030" x="0" y="0" width="762" height="729" frameX="300" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10031" x="0" y="0" width="762" height="729" frameX="320" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10032" x="0" y="0" width="762" height="729" frameX="340" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10033" x="0" y="0" width="762" height="729" frameX="360" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10034" x="0" y="0" width="762" height="729" frameX="380" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10040" x="0" y="0" width="762" height="729" frameX="400" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10041" x="0" y="0" width="762" height="729" frameX="420" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10042" x="0" y="0" width="762" height="729" frameX="440" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10043" x="0" y="0" width="762" height="729" frameX="460" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10044" x="0" y="0" width="762" height="729" frameX="480" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10050" x="0" y="0" width="762" height="729" frameX="500" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10051" x="0" y="0" width="762" height="729" frameX="520" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10052" x="0" y="0" width="762" height="729" frameX="540" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10053" x="0" y="0" width="762" height="729" frameX="560" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10054" x="0" y="0" width="762" height="729" frameX="580" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10060" x="0" y="0" width="762" height="729" frameX="600" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10061" x="0" y="0" width="762" height="729" frameX="620" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10062" x="0" y="0" width="762" height="729" frameX="640" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10063" x="0" y="0" width="762" height="729" frameX="660" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10064" x="0" y="0" width="762" height="729" frameX="680" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10070" x="0" y="0" width="762" height="729" frameX="700" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10071" x="0" y="0" width="762" height="729" frameX="720" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10072" x="0" y="0" width="762" height="729" frameX="740" frameY="-0" frameWidth="762" frameHeight="729"/>
+	<SubTexture name="Ink distract run instance 10073" x="0" y="0" width="762" height="729" frameX="762" frameY="-0" frameWidth="762" frameHeight="729"/>
+</TextureAtlas>
