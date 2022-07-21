@@ -1,14 +1,10 @@
 /*****************************************************************************
- * vlc.h: global header for libvlc
+ * vlc_main.h: access to all program variables
+ * Declaration and extern access to LibVLC instance object.
  *****************************************************************************
- * Copyright (C) 1998-2008 VLC authors and VideoLAN
- * $Id: 8f39094bd4b15c99288cecd001f76fcc10565daa $
+ * Copyright (C) 1999, 2000, 2001, 2002, 2008 VLC authors and VideoLAN
  *
  * Authors: Vincent Seguin <seguin@via.ecp.fr>
- *          Samuel Hocevar <sam@zoy.org>
- *          Gildas Bazin <gbazin@netcourrier.com>
- *          Derk-Jan Hartman <hartman at videolan dot org>
- *          Pierre d'Herbemont <pdherbemont@videolan.org>
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU Lesser General Public License as published by
@@ -25,32 +21,25 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
  *****************************************************************************/
 
-#ifndef VLC_VLC_H
-#define VLC_VLC_H 1
-
 /**
  * \file
- * This file defines libvlc new external API
+ * This file defines libvlc_int_t internal libvlc instance
  */
 
-# ifdef __cplusplus
-extern "C" {
-# endif
+TYPEDEF_ARRAY(input_item_t*, input_item_array_t)
 
-#include <vlc/libvlc_structures.h>
-#include <vlc/libvlc.h>
-#include <vlc/libvlc_media.h>
-#include <vlc/libvlc_media_player.h>
-#include <vlc/libvlc_media_list.h>
-#include <vlc/libvlc_media_list_player.h>
-#include <vlc/libvlc_media_library.h>
-#include <vlc/libvlc_media_discoverer.h>
-#include <vlc/libvlc_events.h>
-#include <vlc/libvlc_vlm.h>
-#include <vlc/deprecated.h>
+struct hotkey;
 
-# ifdef __cplusplus
-}
-# endif
+/*****************************************************************************
+ * libvlc_internal_instance_t
+ *****************************************************************************
+ * This structure is a LibVLC instance, for use by libvlc core and plugins
+ *****************************************************************************/
+struct libvlc_int_t
+{
+    VLC_COMMON_MEMBERS
 
-#endif /* _VLC_VLC_H */
+    /* Structure storing the action name / key associations */
+    const struct hotkey *p_hotkeys;
+};
+

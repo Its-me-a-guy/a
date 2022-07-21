@@ -1,14 +1,9 @@
 /*****************************************************************************
- * vlc.h: global header for libvlc
+ * vlc_memory.h: Memory functions
  *****************************************************************************
- * Copyright (C) 1998-2008 VLC authors and VideoLAN
- * $Id: 8f39094bd4b15c99288cecd001f76fcc10565daa $
+ * Copyright (C) 2009 VLC authors and VideoLAN
  *
- * Authors: Vincent Seguin <seguin@via.ecp.fr>
- *          Samuel Hocevar <sam@zoy.org>
- *          Gildas Bazin <gbazin@netcourrier.com>
- *          Derk-Jan Hartman <hartman at videolan dot org>
- *          Pierre d'Herbemont <pdherbemont@videolan.org>
+ * Authors: JP Dinger <jpd at videolan dot org>
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU Lesser General Public License as published by
@@ -25,32 +20,38 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
  *****************************************************************************/
 
-#ifndef VLC_VLC_H
-#define VLC_VLC_H 1
+#ifndef VLC_MEMORY_H
+#define VLC_MEMORY_H 1
+
+#include <stdlib.h>
 
 /**
  * \file
- * This file defines libvlc new external API
+ * This file deals with memory fixups
  */
 
-# ifdef __cplusplus
-extern "C" {
-# endif
+/**
+ * \defgroup memory Memory
+ * @{
+ */
 
-#include <vlc/libvlc_structures.h>
-#include <vlc/libvlc.h>
-#include <vlc/libvlc_media.h>
-#include <vlc/libvlc_media_player.h>
-#include <vlc/libvlc_media_list.h>
-#include <vlc/libvlc_media_list_player.h>
-#include <vlc/libvlc_media_library.h>
-#include <vlc/libvlc_media_discoverer.h>
-#include <vlc/libvlc_events.h>
-#include <vlc/libvlc_vlm.h>
-#include <vlc/deprecated.h>
-
-# ifdef __cplusplus
+/**
+ * This wrapper around realloc() will free the input pointer when
+ * realloc() returns NULL. The use case ptr = realloc(ptr, newsize) will
+ * cause a memory leak when ptr pointed to a heap allocation before,
+ * leaving the buffer allocated but unreferenced. vlc_realloc() is a
+ * drop-in replacement for that use case (and only that use case).
+ */
+static inline void *realloc_or_free( void *p, size_t sz )
+{
+    void *n = realloc(p,sz);
+    if( !n )
+        free(p);
+    return n;
 }
-# endif
 
-#endif /* _VLC_VLC_H */
+/**
+ * @}
+ */
+
+#endif

@@ -1,14 +1,7 @@
 /*****************************************************************************
- * vlc.h: global header for libvlc
+ * vlc_avcodec.h: VLC thread support for FFMPEG/libavcodec
  *****************************************************************************
- * Copyright (C) 1998-2008 VLC authors and VideoLAN
- * $Id: 8f39094bd4b15c99288cecd001f76fcc10565daa $
- *
- * Authors: Vincent Seguin <seguin@via.ecp.fr>
- *          Samuel Hocevar <sam@zoy.org>
- *          Gildas Bazin <gbazin@netcourrier.com>
- *          Derk-Jan Hartman <hartman at videolan dot org>
- *          Pierre d'Herbemont <pdherbemont@videolan.org>
+ * Copyright (C) 2009-2010 Rémi Denis-Courmont
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU Lesser General Public License as published by
@@ -25,32 +18,17 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
  *****************************************************************************/
 
-#ifndef VLC_VLC_H
-#define VLC_VLC_H 1
+#ifndef VLC_AVCODEC_H
+# define VLC_AVCODEC_H 1
 
-/**
- * \file
- * This file defines libvlc new external API
- */
-
-# ifdef __cplusplus
-extern "C" {
-# endif
-
-#include <vlc/libvlc_structures.h>
-#include <vlc/libvlc.h>
-#include <vlc/libvlc_media.h>
-#include <vlc/libvlc_media_player.h>
-#include <vlc/libvlc_media_list.h>
-#include <vlc/libvlc_media_list_player.h>
-#include <vlc/libvlc_media_library.h>
-#include <vlc/libvlc_media_discoverer.h>
-#include <vlc/libvlc_events.h>
-#include <vlc/libvlc_vlm.h>
-#include <vlc/deprecated.h>
-
-# ifdef __cplusplus
+static inline void vlc_avcodec_lock (void)
+{
+    vlc_global_lock (VLC_AVCODEC_MUTEX);
 }
-# endif
 
-#endif /* _VLC_VLC_H */
+static inline void vlc_avcodec_unlock (void)
+{
+    vlc_global_unlock (VLC_AVCODEC_MUTEX);
+}
+
+#endif

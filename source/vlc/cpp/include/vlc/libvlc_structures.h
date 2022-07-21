@@ -1,14 +1,10 @@
 /*****************************************************************************
- * vlc.h: global header for libvlc
+ * libvlc_structures.h:  libvlc_* new external API structures
  *****************************************************************************
  * Copyright (C) 1998-2008 VLC authors and VideoLAN
- * $Id: 8f39094bd4b15c99288cecd001f76fcc10565daa $
+ * $Id $
  *
- * Authors: Vincent Seguin <seguin@via.ecp.fr>
- *          Samuel Hocevar <sam@zoy.org>
- *          Gildas Bazin <gbazin@netcourrier.com>
- *          Derk-Jan Hartman <hartman at videolan dot org>
- *          Pierre d'Herbemont <pdherbemont@videolan.org>
+ * Authors: Filippo Carone <littlejohn@videolan.org>
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU Lesser General Public License as published by
@@ -25,32 +21,53 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
  *****************************************************************************/
 
-#ifndef VLC_VLC_H
-#define VLC_VLC_H 1
+#ifndef LIBVLC_STRUCTURES_H
+#define LIBVLC_STRUCTURES_H 1
 
 /**
  * \file
- * This file defines libvlc new external API
+ * This file defines libvlc_* new external API structures
  */
+
+#include <stdint.h>
 
 # ifdef __cplusplus
 extern "C" {
 # endif
 
-#include <vlc/libvlc_structures.h>
-#include <vlc/libvlc.h>
-#include <vlc/libvlc_media.h>
-#include <vlc/libvlc_media_player.h>
-#include <vlc/libvlc_media_list.h>
-#include <vlc/libvlc_media_list_player.h>
-#include <vlc/libvlc_media_library.h>
-#include <vlc/libvlc_media_discoverer.h>
-#include <vlc/libvlc_events.h>
-#include <vlc/libvlc_vlm.h>
-#include <vlc/deprecated.h>
+/**
+ * \ingroup libvlc_core
+ * @{
+ */
+
+/** This structure is opaque. It represents a libvlc instance */
+typedef struct libvlc_instance_t libvlc_instance_t;
+
+typedef int64_t libvlc_time_t;
+
+/**@} */
+
+/**
+ * \ingroup libvlc_log
+ * @{
+ */
+
+/** This structure is opaque. It represents a libvlc log iterator */
+typedef struct libvlc_log_iterator_t libvlc_log_iterator_t;
+
+typedef struct libvlc_log_message_t
+{
+    int         i_severity;   /* 0=INFO, 1=ERR, 2=WARN, 3=DBG */
+    const char *psz_type;     /* module type */
+    const char *psz_name;     /* module name */
+    const char *psz_header;   /* optional header */
+    const char *psz_message;  /* message */
+} libvlc_log_message_t;
+
+/**@} */
 
 # ifdef __cplusplus
 }
 # endif
 
-#endif /* _VLC_VLC_H */
+#endif

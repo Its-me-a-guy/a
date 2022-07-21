@@ -1,14 +1,11 @@
 /*****************************************************************************
- * vlc.h: global header for libvlc
+ * vlc_url.h: URL related macros
  *****************************************************************************
- * Copyright (C) 1998-2008 VLC authors and VideoLAN
- * $Id: 8f39094bd4b15c99288cecd001f76fcc10565daa $
+ * Copyright (C) 2002-2006 VLC authors and VideoLAN
+ * $Id: 820250f963fbc31ff56ef1e866fe6bd020686ef0 $
  *
- * Authors: Vincent Seguin <seguin@via.ecp.fr>
- *          Samuel Hocevar <sam@zoy.org>
- *          Gildas Bazin <gbazin@netcourrier.com>
- *          Derk-Jan Hartman <hartman at videolan dot org>
- *          Pierre d'Herbemont <pdherbemont@videolan.org>
+ * Authors: Christophe Massiot <massiot@via.ecp.fr>
+ *          Rémi Denis-Courmont <rem # videolan.org>
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU Lesser General Public License as published by
@@ -25,32 +22,34 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
  *****************************************************************************/
 
-#ifndef VLC_VLC_H
-#define VLC_VLC_H 1
+#ifndef VLC_URL_H
+# define VLC_URL_H
 
 /**
  * \file
- * This file defines libvlc new external API
+ * This file defines functions for manipulating URL in vlc
  */
 
-# ifdef __cplusplus
-extern "C" {
-# endif
+VLC_API char *vlc_path2uri (const char *path, const char *scheme) VLC_MALLOC;
 
-#include <vlc/libvlc_structures.h>
-#include <vlc/libvlc.h>
-#include <vlc/libvlc_media.h>
-#include <vlc/libvlc_media_player.h>
-#include <vlc/libvlc_media_list.h>
-#include <vlc/libvlc_media_list_player.h>
-#include <vlc/libvlc_media_library.h>
-#include <vlc/libvlc_media_discoverer.h>
-#include <vlc/libvlc_events.h>
-#include <vlc/libvlc_vlm.h>
-#include <vlc/deprecated.h>
+struct vlc_url_t
+{
+    char *psz_protocol;
+    char *psz_username;
+    char *psz_password;
+    char *psz_host;
+    unsigned i_port;
+    char *psz_path;
+    char *psz_option;
 
-# ifdef __cplusplus
-}
-# endif
+    char *psz_buffer; /* to be freed */
+};
 
-#endif /* _VLC_VLC_H */
+VLC_API char * decode_URI_duplicate( const char *psz ) VLC_MALLOC;
+VLC_API char * decode_URI( char *psz );
+VLC_API char * encode_URI_component( const char *psz ) VLC_MALLOC;
+VLC_API char * make_path( const char *url ) VLC_MALLOC;
+
+VLC_API void vlc_UrlParse (vlc_url_t *, const char *, unsigned char);
+VLC_API void vlc_UrlClean (vlc_url_t *);
+#endif

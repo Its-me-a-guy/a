@@ -1,14 +1,11 @@
 /*****************************************************************************
- * vlc.h: global header for libvlc
+ * vlc_iso_lang.h: function to decode language code (in dvd or a52 for instance).
  *****************************************************************************
- * Copyright (C) 1998-2008 VLC authors and VideoLAN
- * $Id: 8f39094bd4b15c99288cecd001f76fcc10565daa $
+ * Copyright (C) 1998-2001 VLC authors and VideoLAN
+ * $Id: f27fb665f3db2754e137610a74f14d157bb647e9 $
  *
- * Authors: Vincent Seguin <seguin@via.ecp.fr>
- *          Samuel Hocevar <sam@zoy.org>
- *          Gildas Bazin <gbazin@netcourrier.com>
- *          Derk-Jan Hartman <hartman at videolan dot org>
- *          Pierre d'Herbemont <pdherbemont@videolan.org>
+ * Author: Stéphane Borel <stef@via.ecp.fr>
+ *         Arnaud de Bossoreille de Ribou <bozo@via.ecp.fr>
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU Lesser General Public License as published by
@@ -25,32 +22,26 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
  *****************************************************************************/
 
-#ifndef VLC_VLC_H
-#define VLC_VLC_H 1
-
 /**
  * \file
- * This file defines libvlc new external API
+ * This file defines functions and structures for iso639 language codes
  */
 
-# ifdef __cplusplus
+struct iso639_lang_t
+{
+    const char *psz_eng_name;    /* Description in English */
+    const char psz_iso639_1[3];  /* ISO-639-1 (2 characters) code */
+    const char psz_iso639_2T[4]; /* ISO-639-2/T (3 characters) English code */
+    const char psz_iso639_2B[4]; /* ISO-639-2/B (3 characters) native code */
+};
+
+#if defined( __cplusplus )
 extern "C" {
-# endif
-
-#include <vlc/libvlc_structures.h>
-#include <vlc/libvlc.h>
-#include <vlc/libvlc_media.h>
-#include <vlc/libvlc_media_player.h>
-#include <vlc/libvlc_media_list.h>
-#include <vlc/libvlc_media_list_player.h>
-#include <vlc/libvlc_media_library.h>
-#include <vlc/libvlc_media_discoverer.h>
-#include <vlc/libvlc_events.h>
-#include <vlc/libvlc_vlm.h>
-#include <vlc/deprecated.h>
-
-# ifdef __cplusplus
+#endif
+VLC_API const iso639_lang_t * GetLang_1( const char * );
+VLC_API const iso639_lang_t * GetLang_2T( const char * );
+VLC_API const iso639_lang_t * GetLang_2B( const char * );
+#if defined( __cplusplus )
 }
-# endif
+#endif
 
-#endif /* _VLC_VLC_H */

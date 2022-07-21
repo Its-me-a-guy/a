@@ -1,14 +1,10 @@
 /*****************************************************************************
- * vlc.h: global header for libvlc
+ * vlc_md5.h: MD5 hash
  *****************************************************************************
- * Copyright (C) 1998-2008 VLC authors and VideoLAN
- * $Id: 8f39094bd4b15c99288cecd001f76fcc10565daa $
+ * Copyright © 2004-2011 VLC authors and VideoLAN
  *
- * Authors: Vincent Seguin <seguin@via.ecp.fr>
- *          Samuel Hocevar <sam@zoy.org>
- *          Gildas Bazin <gbazin@netcourrier.com>
- *          Derk-Jan Hartman <hartman at videolan dot org>
- *          Pierre d'Herbemont <pdherbemont@videolan.org>
+ * Authors: Rémi Denis-Courmont
+ *          Rafaël Carré
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU Lesser General Public License as published by
@@ -25,32 +21,39 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
  *****************************************************************************/
 
-#ifndef VLC_VLC_H
-#define VLC_VLC_H 1
+#ifndef VLC_MD5_H
+# define VLC_MD5_H
 
 /**
  * \file
- * This file defines libvlc new external API
+ * This file defines functions and structures to compute MD5 digests
  */
 
-# ifdef __cplusplus
-extern "C" {
-# endif
+struct md5_s
+{
+    uint32_t A, B, C, D;          /* chaining variables */
+    uint32_t nblocks;
+    uint8_t buf[64];
+    int count;
+};
 
-#include <vlc/libvlc_structures.h>
-#include <vlc/libvlc.h>
-#include <vlc/libvlc_media.h>
-#include <vlc/libvlc_media_player.h>
-#include <vlc/libvlc_media_list.h>
-#include <vlc/libvlc_media_list_player.h>
-#include <vlc/libvlc_media_library.h>
-#include <vlc/libvlc_media_discoverer.h>
-#include <vlc/libvlc_events.h>
-#include <vlc/libvlc_vlm.h>
-#include <vlc/deprecated.h>
+VLC_API void InitMD5( struct md5_s * );
+VLC_API void AddMD5( struct md5_s *, const void *, size_t );
+VLC_API void EndMD5( struct md5_s * );
 
-# ifdef __cplusplus
+/**
+ * Returns a char representation of the md5 hash, as shown by UNIX md5 or
+ * md5sum tools.
+ */
+static inline char * psz_md5_hash( struct md5_s *md5_s )
+{
+    char *psz = malloc( 33 ); /* md5 string is 32 bytes + NULL character */
+    if( likely(psz) )
+    {
+        for( int i = 0; i < 16; i++ )
+            sprintf( &psz[2*i], "%02"PRIx8, md5_s->buf[i] );
+    }
+    return psz;
 }
-# endif
 
-#endif /* _VLC_VLC_H */
+#endif

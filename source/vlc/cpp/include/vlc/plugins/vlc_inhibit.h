@@ -1,14 +1,7 @@
 /*****************************************************************************
- * vlc.h: global header for libvlc
+ * vlc_inhibit.h: VLC screen saver inhibition
  *****************************************************************************
- * Copyright (C) 1998-2008 VLC authors and VideoLAN
- * $Id: 8f39094bd4b15c99288cecd001f76fcc10565daa $
- *
- * Authors: Vincent Seguin <seguin@via.ecp.fr>
- *          Samuel Hocevar <sam@zoy.org>
- *          Gildas Bazin <gbazin@netcourrier.com>
- *          Derk-Jan Hartman <hartman at videolan dot org>
- *          Pierre d'Herbemont <pdherbemont@videolan.org>
+ * Copyright (C) 2009 Rémi Denis-Courmont
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU Lesser General Public License as published by
@@ -25,32 +18,37 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
  *****************************************************************************/
 
-#ifndef VLC_VLC_H
-#define VLC_VLC_H 1
-
 /**
  * \file
- * This file defines libvlc new external API
+ * This file defines the interface for screen-saver inhibition modules
  */
 
-# ifdef __cplusplus
-extern "C" {
-# endif
+#ifndef VLC_INHIBIT_H
+# define VLC_INHIBIT_H 1
 
-#include <vlc/libvlc_structures.h>
-#include <vlc/libvlc.h>
-#include <vlc/libvlc_media.h>
-#include <vlc/libvlc_media_player.h>
-#include <vlc/libvlc_media_list.h>
-#include <vlc/libvlc_media_list_player.h>
-#include <vlc/libvlc_media_library.h>
-#include <vlc/libvlc_media_discoverer.h>
-#include <vlc/libvlc_events.h>
-#include <vlc/libvlc_vlm.h>
-#include <vlc/deprecated.h>
+typedef struct vlc_inhibit vlc_inhibit_t;
+typedef struct vlc_inhibit_sys vlc_inhibit_sys_t;
 
-# ifdef __cplusplus
+enum vlc_inhibit_flags
+{
+    VLC_INHIBIT_NONE=0 /*< No inhibition */,
+    VLC_INHIBIT_SUSPEND=0x1 /*< Processor is in use - do not suspend */,
+    VLC_INHIBIT_DISPLAY=0x2 /*< Display is in use - do not blank/lock */,
+#define VLC_INHIBIT_AUDIO (VLC_INHIBIT_SUSPEND)
+#define VLC_INHIBIT_VIDEO (VLC_INHIBIT_SUSPEND|VLC_INHIBIT_DISPLAY)
+};
+
+struct vlc_inhibit
+{
+    VLC_COMMON_MEMBERS
+
+    vlc_inhibit_sys_t *p_sys;
+    void (*inhibit) (vlc_inhibit_t *, unsigned flags);
+};
+
+static inline void vlc_inhibit_Set (vlc_inhibit_t *ih, unsigned flags)
+{
+    ih->inhibit (ih, flags);
 }
-# endif
 
-#endif /* _VLC_VLC_H */
+#endif
