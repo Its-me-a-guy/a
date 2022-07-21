@@ -936,7 +936,6 @@ class PlayState extends MusicBeatState
 				{
 					luaArray.push(new FunkinLua(Asset2File.getPath(luaToLoad)));
 				}
-			}
 		}
 		for (event in eventPushedMap.keys())
 		{
@@ -946,7 +945,6 @@ class PlayState extends MusicBeatState
 				{
 					luaArray.push(new FunkinLua(Asset2File.getPath(luaToLoad)));
 				}
-			}
 		}
 		#end
 		noteTypeMap.clear();
