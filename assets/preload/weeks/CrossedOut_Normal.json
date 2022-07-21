@@ -1,0 +1,32 @@
+{
+	"storyName": "",
+	"difficulties": "Normal",
+	"hideFreeplay": true,
+	"weekBackground": "CrossedOut_Normal_Bg",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "CrossedOut_tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"Menu_vignette",
+		"",
+		"Menu_Fire_Normal"
+	],
+	"songs": [
+		[
+			"Crossed Out",
+			"final",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Crossed Out Normal Chart - Unbk",
+	"hiddenUntilUnlocked": true
+}

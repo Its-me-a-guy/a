@@ -1,0 +1,32 @@
+{
+	"storyName": "",
+	"difficulties": "tutorial",
+	"hideFreeplay": true,
+	"weekBackground": "CrossedOut_Tutorial_bg",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Tutorilaal",
+			"final",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Crossed Out Tutorial - Unbk",
+	"hiddenUntilUnlocked": false
+}

@@ -1,0 +1,32 @@
+{
+	"storyName": "",
+	"difficulties": "Hell",
+	"hideFreeplay": true,
+	"weekBackground": "CrossedOut_Hell_Bg",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "CrossedOut_Hard",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"Menu_Hell_vignette",
+		"",
+		"Menu_Fire_Hell"
+	],
+	"songs": [
+		[
+			"Crossed Out",
+			"final",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Crossed Out Hell Chart - Unbk",
+	"hiddenUntilUnlocked": true
+}

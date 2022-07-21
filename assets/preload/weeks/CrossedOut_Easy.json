@@ -1,0 +1,32 @@
+{
+	"storyName": "",
+	"difficulties": "Easy",
+	"hideFreeplay": true,
+	"weekBackground": "CrossedOut_Easy_Bg",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "CrossedOut_tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"Menu_vignette",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Crossed Out",
+			"final",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Crossed Out Easy Chart - Unbk",
+	"hiddenUntilUnlocked": true
+}

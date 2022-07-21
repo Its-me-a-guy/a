@@ -1,0 +1,32 @@
+{
+	"storyName": "",
+	"difficulties": "Hard",
+	"hideFreeplay": true,
+	"weekBackground": "CrossedOut_Hard_Bg",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "CrossedOut_tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"Menu_Hard_vignette",
+		"",
+		"Menu_Fire_Hard"
+	],
+	"songs": [
+		[
+			"Crossed Out",
+			"final",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Crossed Out Hard Chart - Unbk",
+	"hiddenUntilUnlocked": true
+}
