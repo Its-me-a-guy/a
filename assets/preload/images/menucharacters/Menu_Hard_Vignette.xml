@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CrOu_Hard.png">
+	<SubTexture name="Hard0000" x="0" y="0" width="1920" height="1080"/>
+</TextureAtlas>

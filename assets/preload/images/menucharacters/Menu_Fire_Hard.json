@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "M Dad Idle",
+	"idle_anim": "BurnInHell",
+	"position": [
+		860,
+		-440
+	],
+	"scale": 1.2,
+	"image": "Menu_Fire",
+	"flipX": false
+}

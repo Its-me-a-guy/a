@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "M Dad Idle",
+	"idle_anim": "Menu_Easy_Vignette",
+	"position": [
+		470,
+		240
+	],
+	"scale": 0.7,
+	"image": "Menu_Vignette",
+	"flipX": false
+}
