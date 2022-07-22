@@ -30,6 +30,8 @@ class Paths
 	inline public static var VIDEO_EXT = "mp4";
 
 	#if MODS_ALLOWED
+
+	public static var customSoundsLoaded:Map<String, Sound> = new Map();
 	public static var ignoreModFolders:Array<String> = [
 		'characters',
 		'custom_events',
@@ -254,6 +256,19 @@ class Paths
 		#end
 		return 'songs:assets/songs/${song.toLowerCase().replace(' ', '-')}/Inst.$SOUND_EXT';
 	}
+
+	#if MODS_ALLOWED
+	inline static private function returnSongFile(file:String):Sound
+	{
+		if(FileSystem.exists(file)) {
+			if(!customSoundsLoaded.exists(file)) {
+				customSoundsLoaded.set(file, Sound.fromFile(file));
+			}
+			return customSoundsLoaded.get(file);
+		}
+		return null;
+	}
+	#end
 
 	inline static public function image(key:String, ?library:String):FlxGraphic
 	{
