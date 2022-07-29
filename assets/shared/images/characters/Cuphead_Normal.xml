@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="Cuphead Remastered.png">
+<TextureAtlas imagePath="Cuphead_Normal.png">
 	<!-- Created with Adobe Animate version 22.0.0.93 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="Cuphead Intro phase 2 instance 10000" x="10" y="10" width="230" height="267" frameX="-53" frameY="-4" frameWidth="369" frameHeight="272"/>

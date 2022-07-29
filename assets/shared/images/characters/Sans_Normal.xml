@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="Sans.png">
+<TextureAtlas imagePath="Sans_Normal.png">
 	<!-- Created with Adobe Animate version 22.0.0.93 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="Down 02 instance 10000" x="10" y="10" width="492" height="478" frameX="0" frameY="-28" frameWidth="530" frameHeight="506"/>

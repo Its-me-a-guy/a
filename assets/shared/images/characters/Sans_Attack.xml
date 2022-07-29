@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="Sans but Rip colors.png">
+<TextureAtlas imagePath="Sans_Attack.png">
 	<!-- Created with Adobe Animate version 21.0.1.37179 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="DownUT instance 10000" x="10" y="10" width="461" height="487" frameX="0" frameY="-33" frameWidth="463" frameHeight="520"/>
