@@ -1,78 +1,78 @@
 {
-	"animations": [
-		{
-			"offsets": [
-				0,
-				-2
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "idle",
-			"loop": false,
-			"name": "Sans FNF instance "
-		},
-		{
-			"offsets": [
-				61,
-				-4
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singLEFT",
-			"loop": false,
-			"name": "Left instance"
-		},
-		{
-			"offsets": [
-				-15,
-				-18
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singDOWN",
-			"loop": false,
-			"name": "Down instance"
-		},
-		{
-			"offsets": [
-				-22,
-				32
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singUP",
-			"loop": false,
-			"name": "Up instance"
-		},
-		{
-			"offsets": [
-				-24,
-				-5
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singRIGHT",
-			"loop": false,
-			"name": "Right instance"
-		}
-	],
-	"no_antialiasing": false,
-	"image": "characters/Sans_Angry",
-	"position": [
-		-40,
-		180
-	],
-	"healthicon": "sans",
-	"flip_x": false,
-	"healthbar_colors": [
-		255,
-		255,
-		255
-	],
-	"camera_position": [
-		160,
-		-170
-	],
-	"sing_duration": 6.1,
-	"scale": 1.2
+  "animations": [
+    {
+      "offsets": [
+        0,
+        -2
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "idle",
+      "loop": false,
+      "name": "Sans FNF instance "
+    },
+    {
+      "offsets": [
+        61,
+        -4
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singLEFT",
+      "loop": false,
+      "name": "Left instance"
+    },
+    {
+      "offsets": [
+        -15,
+        -18
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singDOWN",
+      "loop": false,
+      "name": "Down instance"
+    },
+    {
+      "offsets": [
+        -22,
+        32
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singUP",
+      "loop": false,
+      "name": "Up instance"
+    },
+    {
+      "offsets": [
+        -24,
+        -5
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "singRIGHT",
+      "loop": false,
+      "name": "Right instance"
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/Sans_Angry",
+  "position": [
+    -40,
+    180
+  ],
+  "healthicon": "Sans",
+  "flip_x": false,
+  "healthbar_colors": [
+    255,
+    255,
+    255
+  ],
+  "camera_position": [
+    160,
+    -170
+  ],
+  "sing_duration": 6.1,
+  "scale": 1.2
 }

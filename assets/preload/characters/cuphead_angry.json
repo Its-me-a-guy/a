@@ -1,144 +1,144 @@
 {
-	"animations": [
-		{
-			"loop": false,
-			"offsets": [
-				-20,
-				20
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Right instance ",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				30,
-				140
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "Up instance ",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				140,
-				-30
-			],
-			"anim": "hurt",
-			"fps": 24,
-			"name": "Ouch instance ",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				410,
-				310
-			],
-			"anim": "attack",
-			"fps": 24,
-			"name": "Hadoken!! instance",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				140,
-				-40
-			],
-			"anim": "singLEFT-alt",
-			"fps": 24,
-			"name": "Pewleft instance",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-20,
-				30
-			],
-			"anim": "singRIGHT-alt",
-			"fps": 24,
-			"name": "PewRight instance",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				40,
-				90
-			],
-			"anim": "singUP-alt",
-			"fps": 24,
-			"name": "PewUp instance",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-10,
-				-40
-			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Down instance ",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				-30
-			],
-			"anim": "singDOWN-alt",
-			"fps": 24,
-			"name": "pewdown instance",
-			"indices": []
-		},
-		{
-			"loop": true,
-			"offsets": [
-				150,
-				-10
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Left instance ",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "idle",
-			"loop": true,
-			"name": "1 instance "
-		}
-	],
-	"no_antialiasing": false,
-	"image": "characters/Cuphead_angry",
-	"position": [
-		20,
-		350
-	],
-	"healthicon": "cuphead_angry",
-	"flip_x": false,
-	"healthbar_colors": [
-		171,
-		22,
-		74
-	],
-	"camera_position": [
-		170,
-		-250
-	],
-	"sing_duration": 6.1,
-	"scale": 2
+  "animations": [
+    {
+      "loop": false,
+      "offsets": [
+        -20,
+        20
+      ],
+      "anim": "singRIGHT",
+      "fps": 24,
+      "name": "Right instance ",
+      "indices": []
+    },
+    {
+      "loop": false,
+      "offsets": [
+        30,
+        140
+      ],
+      "anim": "singUP",
+      "fps": 24,
+      "name": "Up instance ",
+      "indices": []
+    },
+    {
+      "loop": false,
+      "offsets": [
+        140,
+        -30
+      ],
+      "anim": "hurt",
+      "fps": 24,
+      "name": "Ouch instance ",
+      "indices": []
+    },
+    {
+      "loop": false,
+      "offsets": [
+        410,
+        310
+      ],
+      "anim": "attack",
+      "fps": 24,
+      "name": "Hadoken!! instance",
+      "indices": []
+    },
+    {
+      "loop": false,
+      "offsets": [
+        140,
+        -40
+      ],
+      "anim": "singLEFT-alt",
+      "fps": 24,
+      "name": "Pewleft instance",
+      "indices": []
+    },
+    {
+      "loop": false,
+      "offsets": [
+        -20,
+        30
+      ],
+      "anim": "singRIGHT-alt",
+      "fps": 24,
+      "name": "PewRight instance",
+      "indices": []
+    },
+    {
+      "loop": false,
+      "offsets": [
+        40,
+        90
+      ],
+      "anim": "singUP-alt",
+      "fps": 24,
+      "name": "PewUp instance",
+      "indices": []
+    },
+    {
+      "loop": false,
+      "offsets": [
+        -10,
+        -40
+      ],
+      "anim": "singDOWN",
+      "fps": 24,
+      "name": "Down instance ",
+      "indices": []
+    },
+    {
+      "loop": false,
+      "offsets": [
+        0,
+        -30
+      ],
+      "anim": "singDOWN-alt",
+      "fps": 24,
+      "name": "pewdown instance",
+      "indices": []
+    },
+    {
+      "loop": true,
+      "offsets": [
+        150,
+        -10
+      ],
+      "anim": "singLEFT",
+      "fps": 24,
+      "name": "Left instance ",
+      "indices": []
+    },
+    {
+      "offsets": [
+        0,
+        0
+      ],
+      "indices": [],
+      "fps": 24,
+      "anim": "idle",
+      "loop": true,
+      "name": "1 instance "
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/Cuphead_Angry",
+  "position": [
+    20,
+    350
+  ],
+  "healthicon": "Cuphead_Angry",
+  "flip_x": false,
+  "healthbar_colors": [
+    171,
+    22,
+    74
+  ],
+  "camera_position": [
+    170,
+    -250
+  ],
+  "sing_duration": 6.1,
+  "scale": 2
 }
